@@ -4,6 +4,7 @@
     "namespace": "android_app",
     "package_name": "pt.lottiscry.lottiscrypt",
     "sha256_cert_fingerprints":
-    ["0B:FA:7F:DA:11:CF:FB:B6:27:25:50:B9:C2:DD:ED:9C:92:82:B0:7C:A7:91:8F:B6:7D:16:27:33:D9:16:8C:D7"]
+    ["0B:FA:7F:DA:11:CF:FB:B6:27:25:50:B9:C2:DD:ED:9C:92:82:B0:7C:A7:91:8F:B6:7D:16:27:33:D9:16:8C:D7",
+    "5B:4A:68:CE:B9:CF:EB:76:B4:FE:0E:7C:5F:EC:F4:9F:94:E8:11:0F:5B:4A:DD:F5:F4:F4:85:30:D6:1F:EC:8E"]
   }
 }]
