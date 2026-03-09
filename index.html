@@ -152,9 +152,9 @@ document.getElementById("status").innerHTML += `
                     let myName = document.getElementById("myNameInput").value.trim();
                     if (!myName) myName = "Web Session";
 
-                    const magicLink = window.location.origin + window.location.pathname + 
-                                      "?name=" + encodeURIComponent(myName) + 
-                                      "&key=" + encodeURIComponent(myKey);
+                   const magicLink = window.location.origin + "/add" + 
+                  "?name=" + encodeURIComponent(myName) + 
+                  "&key=" + encodeURIComponent(myKey);
                     navigator.clipboard.writeText(magicLink);
                     alert("Magic Link for '" + myName + "' copied! Send this to your phone.");
                 };
