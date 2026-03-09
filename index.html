@@ -65,8 +65,8 @@
     document.getElementById("recipientKeyInput").style.border = "2px solid #198754";
 
     // --- NEW: App Redirect Logic ---
-    // Make sure to replace 'com.your.package.name' with your actual app package ID!
-    const intentUrl = `intent://${window.location.host}${window.location.pathname}?name=${encodeURIComponent(recipientName)}&key=${encodeURIComponent(recipientKey)}#Intent;scheme=https;package=com.your.package.name;end;`;
+  
+    const intentUrl = `intent://${window.location.host}${window.location.pathname}?name=${encodeURIComponent(recipientName)}&key=${encodeURIComponent(recipientKey)}#Intent;scheme=https;package=pt.lottiscry.lottiscrypt;end;`;
 
     // 1. Attempt to auto-redirect the user to the app
     window.location.href = intentUrl;
